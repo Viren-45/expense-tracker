@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import axios from 'axios';
 
-const BASE_URL = "https://expense-tracker-frontend-flame.vercel.app/";
+const BASE_URL = "https://expense-tracker-frontend-flame.vercel.app/api/v1";
 
 const GlobalContext = React.createContext();
 
